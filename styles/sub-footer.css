@@ -1,0 +1,48 @@
+.contact-home {
+    width: 100%;
+    padding: 50px;
+    color: white;
+    background-color: black;
+    margin-bottom: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-home > .contact-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-home > .contact-content > .column h4 {
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.contact-home > .contact-content > .column > .icons-midias {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.contact-home > .contact-content > .column > .icons-midias > a {
+    color: white;
+}
+
+
+@media (max-width:600px) {
+    .contact-home {
+        padding: 50px 0 0;
+    }
+
+    .contact-home > .contact-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact-home > .contact-content > .column {
+        margin-bottom: 50px;
+    }
+}

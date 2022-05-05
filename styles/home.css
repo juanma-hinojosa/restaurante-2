@@ -1,0 +1,49 @@
+body {
+    background-image: url(../img/bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-paragrafo {
+    background-color: black;
+    color: whitesmoke;
+    padding: 50px 20px;
+    width: 30%;
+    text-align: center;
+    margin: 5px 0px 150px;
+}
+
+.home-paragrafo > .home-content h3 {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+ 
+.home-paragrafo > .home-content p {
+    font-size: 15px;
+    line-height : 25px;
+    margin-bottom: 50px;
+}
+
+.home-paragrafo > .home-content a {
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+    border: 1px solid white;
+    transition: .3s;
+}
+
+.home-paragrafo > .home-content a:hover {
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+@media (max-width:600px) {
+    .home-paragrafo {
+        width: 100%;
+    }
+}

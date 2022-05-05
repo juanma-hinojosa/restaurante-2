@@ -1,0 +1,89 @@
+.navbar {
+    background-color: black;
+}
+
+.navbar div {
+    display: none;
+}
+
+.navbar .toggle,
+.navbar .brand {
+    display: inline-block;
+}
+
+.navbar .link {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+.navbar .link:hover,
+.navbar .link:active {
+    color: black;
+    background-color: white;
+}
+
+.navbar .brand {
+    width: 10em;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar .toggle {
+    padding: 1em;
+    color: white;
+}
+
+@media (min-width: 48em) {
+    .navbar {
+        display: flex;
+    }
+
+    .navbar div {
+        display: flex;
+    }
+
+    .navbar .left,
+    .navbar .right {
+        display: flex;
+        flex: 1;
+    }
+
+    .navbar .link {
+        width: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar .right {
+        justify-content: flex-end;
+    }
+
+    .navbar .toggle {
+        display: none;
+    }
+}
+
+@media (max-width: 48em) {
+    .navbar.active .toggle {
+        background-color: black;
+        color: white;
+    }
+
+    .navbar .brand {
+        text-align: left;
+        display: contents;
+    }
+
+    .navbar.active div {
+        display: block;
+    }
+}

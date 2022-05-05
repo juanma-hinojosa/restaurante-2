@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/298dd3b7e3.js" crossorigin="anonymous"></script>
+    <title>Menu</title>
+    <link rel="stylesheet" href="/styles/common.css">
+    <link rel="stylesheet" href="/styles/menu.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="/styles/sub-footer.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="toggle" id="navHamburger">
+            <i class="fas fa-bars"></i>
+        </a>
+
+        <a href="/index.html" class="brand">La Tia Meche</a>
+
+        <div class="right">
+            <a href="/index.html" class="link">Inicio</a>
+            <a href="about.html" class="link">Nosotros</a>
+            <a href="menu.html" class="link">Menu</a>
+            <a href="contact.html" class="link">Contacto y Reservacion</a>
+        </div>
+    </nav>
+
+    
+    <div class="menu-home">
+        <div class="title">
+            <h1>Nuestra Carta</h1>
+        </div>
+
+        <div class="menu-content">
+            <div class="menu-wrapper">
+                <div class="menu-title">
+                    <h2>Menu</h2>
+                </div>
+                
+                <div class="menu-subtitle">
+                    <h3>Cerdo</h3>
+                </div>
+
+                <div class="menu-description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+
+                <div class="menu-price">
+                    <div class="food-price">
+                        <div class="food">
+                            <h3>Chicharron</h3>
+                        </div>
+                        <div class="price">
+                            <h3>$30.-</h3>
+                        </div>
+                    </div>
+                    <div class="sub-description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, iusto!</p>
+                    </div>
+                </div>
+
+                <div class="menu-subtitle">
+                    <h3>Pollos</h3>
+                </div>
+
+                <div class="menu-description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+
+                <div class="menu-price">
+                    <div class="food-price">
+                        <div class="food">
+                            <h3>Arroz con Pollo</h3>
+                        </div>
+                        <div class="price">
+                            <h3>$30.-</h3>
+                        </div>
+                    </div>
+                    <div class="sub-description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, iusto!</p>
+                    </div>
+                    <div class="food-price">
+                        <div class="food">
+                            <h3>Aji de galllina</h3>
+                        </div>
+                        <div class="price">
+                            <h3>$30.-</h3>
+                        </div>
+                    </div>
+                    <div class="sub-description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, iusto!</p>
+                    </div>
+                    <div class="food-price">
+                        <div class="food">
+                            <h3>Pollo Broster</h3>
+                        </div>
+                        <div class="price">
+                            <h3>$30.-</h3>
+                        </div>
+                    </div>
+                    <div class="sub-description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, iusto!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="contact-home">
+        <div class="contact-content">
+            <div class="column">
+                <h4>Mon - Fri: 11am - 10pm​</h4>
+                <h4>Sat - Sun: 11am - 12am</h4>
+            </div>
+            <div class="column">
+                <h4>500 Terry Francois Street</h4>
+                <h4>500 Terry Francois Street</h4>
+            </div>
+            <div class="column">
+                <h4>Seguinos</h4>
+                <div class="icons-midias">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            © 2023 La Tia Meche. Creado y Producido por <span>Juan Hinojosa</span>    
+        </p>
+    </footer>
+</body>
+<script>
+    const navHamburger = document.querySelector("#navHamburger")
+    navHamburger.addEventListener("click", (e) => {
+        navHamburger.parentElement.classList.toggle("active");
+    })
+</script>
+</html>

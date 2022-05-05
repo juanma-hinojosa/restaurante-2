@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin: 2px  0;
+}
+
+.menu-home > .title {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 30px 0px;
+    letter-spacing: 3px;
+}
+
+.menu-home > .menu-content {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-home > .menu-content > .menu-wrapper {
+    width: 90%;
+}
+
+.menu-home > .menu-content > .menu-wrapper > .menu-title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+}
+
+.menu-home > .menu-content > .menu-wrapper > .menu-subtitle {
+    padding: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    font-weight: 900;
+}
+
+.menu-home > .menu-content > .menu-wrapper > .menu-description {
+    font-size: .9rem;
+    margin: 10px 0px 50px;
+}
+
+.menu-home > .menu-content > .menu-wrapper > .menu-price {
+    margin-bottom: 170px;
+}
+
+.menu-home > .menu-content > .menu-wrapper > .menu-price > .food-price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}   
+
+.menu-home > .menu-content > .menu-wrapper > .menu-price > .food-price > .food {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.menu-home > .menu-content > .menu-wrapper > .menu-price > .sub-description {
+    margin-bottom: 50px;
+    font-size: 14px;
+    color: white;
+}
+
+@media (max-width:350px) {
+    .menu-home > .menu-content > .menu-wrapper > .menu-price > .food-price {
+        margin-bottom: 30px;
+    }
+    .menu-home > .menu-content > .menu-wrapper > .menu-price > .sub-description {
+        display: none;
+    }
+}
+
+@media (max-width:320px) {
+    .menu-home > .title {
+        font-size: 20px;
+    }
+    .menu-home > .menu-content > .menu-wrapper > .menu-price > .food-price {
+        display: flex;
+        flex-direction: column;
+    }
+}
